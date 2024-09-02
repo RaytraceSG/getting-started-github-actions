@@ -20,8 +20,7 @@ jobs:
         run: echo "You are running in ${{ vars.ENV_NAME }}!"
 
       - name: Sensitivity Level
-        run: |
-          echo "Your environment has ${{ vars.SENSITIVITY_LEVEL }} level"
+        run: echo "Your environment has ${{ vars.SENSITIVITY_LEVEL }} level"
 
   hello-world-uat:
     runs-on: ubuntu-latest
@@ -35,5 +34,4 @@ jobs:
         run: echo "You are running in ${{ vars.ENV_NAME }}!"
 
       - name: Sensitivity Level
-        run: |
-          echo "Your environment has ${{ vars.SENSITIVITY_LEVEL }} level"
+        run: echo "Your environment has ${{ vars.SENSITIVITY_LEVEL }} level"
